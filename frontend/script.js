@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://calcutta-hacks.onrender.com";
 let currentUser = null;
 let currentReviewPlaceId = null;
 
@@ -237,4 +237,5 @@ async function fetchWeather(lat, lng) {
     } catch (error) {
         console.error("Weather Error:", error);
     }
+
 }
